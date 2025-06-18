@@ -1,0 +1,11 @@
+project_1/
+checkers_logic/
+**/build/
+**/.vscode/
+*.cmake
+*.o
+*.so
+*.a
+*.exe
+*.out
+*.dSYM/

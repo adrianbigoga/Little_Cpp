@@ -1,0 +1,15 @@
+CMAKE_MINIMUM_REQUIRED (VERSION 3.10)
+
+project (Expression_solver)
+
+set (CMAKE_CXX_STANDARD 23)
+
+set (CMAKE_CXX_STANDARD_REQUIRED ON)
+
+set (CMAKE_DEBUG_TYPE debug)
+
+include_directories(${CMAKE_SOURCE_DIR}/include)
+
+file (GLOB SOURCES "${CMAKE_SOURCE_DIR}/src/*.cpp")
+
+add_executable (${PROJECT_NAME} ${SOURCES})
